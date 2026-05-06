@@ -44,31 +44,31 @@ const Login = () => {
     };
 
     return (
-        <div className="h-screen flex justify-center items-center bg-gradient-to-b from-slate-800 to-violet-800 backdrop-blur-md">
-            <div className="w-full max-w-lg bg-linear-to-b from-slate-900 to-violet-900 p-10 rounded-2xl shadow-xl">
+        <div className="absolute w-full max-w-lg bg-[#5a06f638] border-white border p-10 rounded-2xl shadow-xl">
+            <div className="w-full max-w-lg  p-10 rounded-2xl shadow-xl">
             <h2 className="text-white text-3xl font-bold text-center mb-6">Login</h2>
                 <form
                     className="flex flex-col items-center gap-6 text-amber-50"
                     onSubmit={handleSubmit}
                 >
-                    <div className="w-[480px] h-[80px] bg-gradient-to-b to-slate-900 from-violet-900 rounded-md flex items-center px-4 mt-[80px]">
+                    <div className="w-full bg-gradient-to-b from-violet-100 to-slate-200 rounded-md flex items-center px-4">
                         <input
                             placeholder="Email"
                             type="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="p-3 w-full bg-transparent outline-none text-amber-50"
+                            className="p-3 w-full bg-transparent outline-none placeholder-gray-400 text-gray-600"
                             autoComplete="off"
                         />
                     </div>
 
-                    <div className="w-[480px] h-[80px] bg-gradient-to-b to-slate-900 from-violet-900 rounded-md flex items-center px-4">
+                    <div className="w-full bg-gradient-to-b from-violet-100 to-slate-200 rounded-md flex items-center px-4">
                         <input
                             placeholder="Password"
                             type="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            className="p-3 w-full bg-transparent outline-none text-amber-50"
+                            className="p-3 w-full bg-transparent outline-none placeholder-gray-400 text-gray-600"
                             autoComplete="off"
                         />
                     </div>

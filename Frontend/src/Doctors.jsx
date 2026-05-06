@@ -60,7 +60,7 @@ const Doctors = () => {
     }, [place, specialization, doctors]);
 
     return (
-        <div className="min-h-screen bg-gray-100 p-6">
+        <div className="h-full w-[90%] bg-[#5a06f638] p-6">
             <div className="max-w-6xl mx-auto">
 
                 {/* Header */}

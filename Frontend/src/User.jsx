@@ -99,12 +99,12 @@ const User = () => {
     if (loading) return <p className="text-center mt-20">Loading...</p>;
 
     return (
-        <div className="min-h-screen bg-gray-100 p-6">
-          <div className="max-w-5xl mx-auto">
+        <div className="h-full w-[90%] bg-[#5a06f638] p-6">
+          <div className="w-[90%] mx-auto">
       
             {/* Header */}
             <div className="mb-6 flex justify-between items-center">
-              <h1 className="text-3xl font-bold text-gray-800">
+              <h1 className="text-3xl font-bold text-white ">
                 Welcome, {user.name}
               </h1>
       
@@ -123,7 +123,7 @@ const User = () => {
               <>
                 {/* Appointments */}
                 <section className="mb-8">
-                  <h2 className="text-xl font-semibold mb-4 text-gray-700">
+                  <h2 className="text-xl font-semibold mb-4 text-white">
                     Upcoming Appointments
                   </h2>
       
@@ -163,7 +163,7 @@ const User = () => {
       
                 {/* Reports */}
                 <section>
-                  <h2 className="text-xl font-semibold mb-4 text-gray-700">
+                  <h2 className="text-xl font-semibold mb-4 text-white">
                     Reports
                   </h2>
       
