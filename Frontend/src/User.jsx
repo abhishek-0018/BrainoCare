@@ -191,6 +191,15 @@ const User = () => {
                     </div>
                   )}
                 </section>
+                <button
+                  onClick={() => navigate("/Doctor")}
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow"
+                >
+                  Find Doctor
+                </button>
+                <section>
+                  
+                </section>
               </>
             )}
       
