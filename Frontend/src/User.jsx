@@ -128,7 +128,7 @@ const User = () => {
                   </h2>
       
                   {appointments.length === 0 ? (
-                    <p className="text-gray-500">No appointments found</p>
+                    <p className="text-white">No appointments found</p>
                   ) : (
                     <div className="grid gap-4 md:grid-cols-2">
                       {appointments.map((appt) => (
@@ -206,7 +206,7 @@ const User = () => {
             {/* ================= DOCTOR VIEW ================= */}
             {user.role === "doctor" && (
               <section>
-                <h2 className="text-xl font-semibold mb-4 text-gray-700">
+                <h2 className="text-xl font-semibold mb-4 text-white">
                   Appointment Requests
                 </h2>
       

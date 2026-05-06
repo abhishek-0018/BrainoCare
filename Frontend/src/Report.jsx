@@ -46,7 +46,7 @@ const Report = () => {
         }
     };
     return (
-        <div className="bg-amber-600 p-4 min-h-screen">
+        <div className="h-full w-[90%] bg-[#5a06f638] p-6 flex flex-col justify-center items-center">
             <h2 className="text-xl font-bold mb-4">Upload MRI Scan</h2>
 
             {/* File Input */}
