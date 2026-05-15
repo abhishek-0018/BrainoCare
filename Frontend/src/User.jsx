@@ -162,7 +162,7 @@ const User = () => {
                 </section>
       
                 {/* Reports */}
-                <section>
+                {/* <section>
                   <h2 className="text-xl font-semibold mb-4 text-white">
                     Reports
                   </h2>
@@ -190,7 +190,7 @@ const User = () => {
                       ))}
                     </div>
                   )}
-                </section>
+                </section> */}
                 <button
                   onClick={() => navigate("/Doctor")}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow"

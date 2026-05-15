@@ -5,3 +5,7 @@
     height: 100%;
     display: block;
   }
+
+  body{
+    background-color: rgb(173, 77, 241);
+  }
